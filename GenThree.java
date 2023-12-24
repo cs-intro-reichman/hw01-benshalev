@@ -9,9 +9,9 @@ public class GenThree {
 	public static void main(String[] args) {
 		int a = Integer.parseInt(args[0]);
 		int b = Integer.parseInt(args[1]);
-		int x = (int)((Math.random() *(b - a)) + a);
-		int y = (int)((Math.random() *(b - a)) + a);
-		int z = (int)((Math.random() *(b - a)) + a);
+		int x = ((int)(Math.random() *(b - a) + a));
+		int y = ((int)(Math.random() *(b - a) + a));
+		int z = ((int)(Math.random() *(b - a) + a));
 		int min = Math.min(Math.min(x, y),z);
 		System.out.println(x) ;
 		System.out.println(y) ;
