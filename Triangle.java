@@ -11,7 +11,12 @@ public class Triangle {
 		int sum1 = a + b;
 		int sum2 = b + c;
 		int sum3 = c + a;
-		System.out.println((sum1>c)&&(sum2>a)&&(sum3>b));
+		if ((sum1>c)&&(sum2>a)&&(sum3>b)){
+			System.out.println(a + ", " + b + ", " + c + ": true");
+		}
+		else{
+			System.out.println(a + ", " + b + ", " + c + ": false");
+		}
 		// Put your code here	
 	}
 }

@@ -12,7 +12,7 @@
 	double c = Double.parseDouble(args[2]);
 	double x = c-b;
 	double sum =   x/a;
-	System.out.println(a + "* x +" + b " = " + c);
+	System.out.println(a + " * x +" + b " = " + c);
 	System.out.println("x = " + x);
 	// Put your code here
 }
